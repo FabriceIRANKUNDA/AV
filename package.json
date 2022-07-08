@@ -9,7 +9,7 @@
   "module": "./dist/avatarcreator.es.js",
   "types": "./dist/index.d.ts",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry":"https://npm.pkg.github.com/kimenyikevin"
   },
   "repository": {
     "type": "git",
