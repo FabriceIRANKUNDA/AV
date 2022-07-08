@@ -1,6 +1,6 @@
 {
-  "name": "avatarcreator",
-  "version": "0.0.5",
+  "name": "av",
+  "version": "0.0.1",
   "files": [
     "dist",
     "src"
@@ -8,6 +8,13 @@
   "main": "./dist/avatarcreator.umd.js",
   "module": "./dist/avatarcreator.es.js",
   "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimenyikevin/AV"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
